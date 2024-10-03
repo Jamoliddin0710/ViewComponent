@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "6zYIMFXCqQ8nX1mfOj7QXz3qc9nrONEXbAnWftSgZhk=",
+  "Source": "ViewComponent",
+  "BasePath": "_content/ViewComponent",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponent\\wwwroot",
+      "Source": "ViewComponent",
+      "ContentRoot": "E:\\mvc\\ViewComponent\\ViewComponent\\wwwroot\\",
+      "BasePath": "_content/ViewComponent",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\mvc\\ViewComponent\\ViewComponent\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponent",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\mvc\\ViewComponent\\ViewComponent\\wwwroot\\",
+      "BasePath": "_content/ViewComponent",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

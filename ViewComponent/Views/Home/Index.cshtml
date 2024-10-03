@@ -1,0 +1,39 @@
+﻿@using ViewComponent.Models
+
+@{
+    ViewBag.Title = "Index";
+    var users = new List<Person>()
+    {
+        new Person()
+        {
+            UserName = "testuser",
+            Subject = "Teacher"
+        },
+        new Person()
+        {
+            UserName = "@devcoder",
+            Subject = "Developer",
+        }
+    };
+    var users1 = new List<Person>()
+    {
+        new Person()
+        {
+            UserName = "leverow",
+            Subject = ".NET "
+        },
+        new Person()
+        {
+            UserName = "@noname",
+            Subject = "English",
+        }
+    };
+
+}
+
+@await Component.InvokeAsync("Grid", users)
+
+
+@await Component.InvokeAsync("Grid", users1)
+
+
